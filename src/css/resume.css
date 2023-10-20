@@ -4,7 +4,7 @@
 }
 .resume-section {
     font-family: Arial, sans-serif;
-    padding: 10px;
+    padding: 5px;
     margin: 0px 0;
 }
 
@@ -35,7 +35,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 .job-title {
@@ -52,11 +52,14 @@ h2 {
 
 .bullet-list {
     margin-left: 30px;
+	margin: 11px;
     list-style-type: disc;
+	padding: 0px;
 }
 
 .bullet-list li {
-    font-size: 16px;
+    font-size: 13px;
 	color: #606060;
+	margin-bottom: 5px;
 }
 

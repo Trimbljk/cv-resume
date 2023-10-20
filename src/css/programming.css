@@ -41,7 +41,7 @@
 }
 
 .graph-div {
-	padding-left: 20px;
+	padding-left: 22px;
 
 }
 
@@ -94,6 +94,7 @@
     0.9 * 360  / 2
   */
   transform: rotate(180deg);
+  
 }
 
 #python.fill.shim {
