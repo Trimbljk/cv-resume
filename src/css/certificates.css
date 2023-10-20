@@ -1,0 +1,22 @@
+.certs-h2 {
+    text-align: center;
+	color:#1e3b66
+}
+
+/* Style the list items as buttons */
+.certifications-list {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.certifications-list li {
+    display: inline-block;
+    padding: 2px 10px;
+    background-color: #004d99;
+    color: #fff;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+	font-size: 0.7em;
+}
+

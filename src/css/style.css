@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+
+.page {
+    width: 8.5in;
+    height: 11in;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Hide overflow content */
+}
+.top-container {
+	display: grid;
+	grid-template-columns: 1fr 6fr 1fr;
+	height: 0.5in;
+	width: 100%;
+	margin: 0px;
+}
+.top-sides {
+	background-color: lightgrey;
+}
+.top-center {
+	background-color: #3498db;
+}
+
+.header-container {
+    justify-content: center;
+	border-bottom: 4px solid #3498db;
+	margin: 0px;
+	padding-top: 10px;
+}
+
+header > h1 {
+    color: #1e3b66;
+    text-align: left;
+	margin: 0px;
+	justify-content: center;
+	padding-left: 30px;
+	font-size: 3em;
+}
+
+.resume-content {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Two columns, one for skills and certifications, and one for information */
+    margin: 0;
+}
+

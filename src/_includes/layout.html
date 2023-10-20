@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+	<link rel="stylesheet" href="css/style.css" media="all">
+	<link rel="stylesheet" href="css/contact.css" media="all">
+	<link rel="stylesheet" href="css/programming.css" media="all">
+	<link rel="stylesheet" href="css/certificates.css" media="all">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="css/resume.css" media="all">
+	<link rel="stylesheet" href="css/skills.css" media="all">
+  </head>
+  </body>
+	<div class="page">
+		<div class="top-container">
+			<div class="top-sides"></div>
+			<div class="top-center"></div>
+			<div class="top-sides"></div>
+		</div>
+        <div class="header-container">
+            <header>
+                <h1>JAKE TRIMBLE</h1>
+            </header>
+        </div>
+		<main>
+			<div class="resume-content">
+				<div class="skills-column">
+					{% include "contact.html" %}
+					{% include "skills.html" %}
+					{% include "programming.html" %}
+					{% include "certificates.html" %}
+				</div>
+				<div class="info-column">
+					{% include "resume.html" %}
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+</html>

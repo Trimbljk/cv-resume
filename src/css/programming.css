@@ -1,0 +1,202 @@
+.programming-all {
+	margin: 0px;
+	padding: 0px;
+	color: #1e3b66;
+}
+
+.programming-h2 {
+	text-align: center; 
+	color: #1e3b66;
+	padding-bottom: 10px;
+
+}
+#prorowpad {
+	padding-bottom: 3px;
+
+}
+.programming-row {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: left;
+}
+.dot{
+	height: 16px;
+  width: 16px;
+  background-color: #bbb;
+  border-radius: 20%;
+  display: inline-block;
+
+}
+.programming-dot {
+	text-align: left;
+	margin: 0px 15px 0px 20px;
+	grid-column: 1;
+
+}
+.programming-info {
+	text-align: left;
+	margin: 0;
+	grid-column: 2;
+	color: #004d99;
+}
+
+.graph-div {
+	padding-left: 20px;
+
+}
+
+.radial-graph,
+.shape,
+.mask,
+.fill {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.shape,
+.mask,
+.fill {
+  position: absolute;
+  background-color: #4da3ff;
+}
+
+.mask,
+.fill {
+  -webkit-backface-visibility: hidden;
+  transition: transform 1s;
+  border-radius: 50%;
+}
+
+.mask {
+  clip: rect(0px, 33px, 33px, 16.5px);
+}
+.fill {
+  clip: rect(0px, 16.5px, 33px, 0px);
+  background-color: #004d99;
+}
+
+.cutout {
+  margin-left: 9px;
+  margin-top: 9px;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#python.mask.full-mask,
+#python.fill {
+  /*
+    For a value of 90%
+    0.9 * 360  / 2
+  */
+  transform: rotate(180deg);
+}
+
+#python.fill.shim {
+  /* 
+    For a value of 90%
+    0.9 * 360
+  */
+  transform: rotate(324deg);
+}
+#R.mask.full-mask,
+#R.fill {
+  /*
+    For a value of 90%
+    0.9 * 360  / 2
+  */
+  transform: rotate(45deg);
+}
+
+#R.fill.shim {
+  /* 
+    For a value of 90%
+    0.9 * 360
+  */
+  transform: rotate(180deg);
+}
+#sql.mask.full-mask,
+#sql.fill {
+  /*
+    For a value of 90%
+    0.9 * 360  / 2
+  */
+  transform: rotate(180deg);
+}
+
+#sql.fill.shim {
+  /* 
+    For a value of 90%
+    0.9 * 360
+  */
+  transform: rotate(324deg);
+}
+
+#css.mask.full-mask,
+#css.fill {
+  /*
+    For a value of 90%
+    0.9 * 360  / 2
+  */
+  transform: rotate(120deg);
+}
+
+#css.fill.shim {
+  /* 
+    For a value of 90%
+    0.9 * 360
+  */
+  transform: rotate(200deg);
+}
+
+.mask.full-mask,
+.fill {
+  /*
+    For a value of 90%
+    0.9 * 360  / 2
+  */
+  transform: rotate(145deg);
+}
+.fill.shim {
+  /* 
+    For a value of 90%
+    0.9 * 360
+  */
+  transform: rotate(324deg);
+}
+
+.start .mask.full-mask,
+.start .fill {
+  /*
+    For a value of 40%
+    0.4 * 360  / 2
+  */
+  transform: rotate(0deg);
+}
+.start .fill.shim {
+  /* 
+    For a value of 40%
+    0.4 * 360
+  */
+  transform: rotate(0deg);
+}
+
+.end .mask.full-mask,
+.end .fill {
+  /*
+    For a value of 81%
+    0.81 * 360  / 2
+  */
+  transform: rotate(145.8deg);
+}
+.end .fill.shim {
+  /* 
+    For a value of 81%
+    0.81 * 360
+  */
+  transform: rotate(291.6deg);
+}
